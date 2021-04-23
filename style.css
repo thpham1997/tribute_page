@@ -1,55 +1,47 @@
 body{
-  background-color: #d4deec;
+  background-color: #d9e2ee;
 }
 
 #title{
   background-color: white;
-  width: 30%;
-  display: block;
+  width: 40%;
   border-radius: 10px;
   text-align: center;
-  margin: auto;
+  margin: 10px auto 10px;
   box-shadow: 5px 8px 2px 1px rgba(30, 30, 31, 0.2);
 
 }
-#img-div{
-  display: block;
-  position: relative;
-  width: 100%;
-  height: auto;
-  margin-left: auto;
-}
-img{
-  background-color: white;
-  width: 50%;
+#img-div *{
   display: block;
   position: relative;
   margin: auto auto;
-  border-radius: 10%;
-  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
-}
-#img-caption{
-  display: block;
-  position: relative;
-  margin: auto auto;
-  width: 100%;
-  padding-top: 20px;
-  text-align: center;
-  font-size: larger;
   
 }
-#headline{
-  display: block;
+img{
+  width: 50%;
+  border-radius: 10%;
+  box-shadow: 12px 12px 2px 1px rgba(30, 30, 31, 0.2);
+}
+#img-caption{
+  margin-top: 15px;
+  width: 40%;
+  text-align: center;
+  font-size: larger;
   position: relative;
+}
+#headline{
   text-align: center;
 }
 #tribute-info{
-  color: hsl(#4d76b2, saturation, lightness);
   display: block;
   position: relative;
   width: 50%;
   height: auto;
   margin: auto auto;
+}
+li:hover{
+  background-color: #a5cdda;
+  border-radius: 4px;
 }
 #info-link{
   background-color: rgba(38, 38, 121, 0.445);
