@@ -3,8 +3,8 @@ body{
 }
 
 #title{
-  background-color: white;
-  width: 40%;
+  background-color: rgba(226, 223, 223, 0.664);
+  width: 60%;
   border-radius: 10px;
   text-align: center;
   margin: 10px auto 10px;
@@ -15,19 +15,22 @@ body{
   display: block;
   position: relative;
   margin: auto auto;
-  
 }
-img{
-  width: 50%;
-  border-radius: 10%;
+#image{
+  width: 60%;
+  border-radius: 5%;
   box-shadow: 12px 12px 2px 1px rgba(30, 30, 31, 0.2);
+  max-width: 800px;
 }
 #img-caption{
   margin-top: 15px;
   width: 40%;
+  padding: 0 2% 0 2%;
   text-align: center;
-  font-size: larger;
+  font-size: small;
   position: relative;
+  background-color: #c1cdd1;
+  border-radius: 1em;
 }
 #headline{
   text-align: center;
